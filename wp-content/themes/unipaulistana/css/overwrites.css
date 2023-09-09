@@ -1,0 +1,1572 @@
+.content-link,
+.wpcf7-form label {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header.stuck .header-bottom > .container,
+.wpcf7-form input[type="submit"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+:root {
+    --gray: #707070;
+    --blue: #101223;
+    --yellow: #fed300;
+    --lightblue: #f3f4f8;
+    --lightgray: #b3b5bd;
+    --red: #b91400;
+    --mediumred: #d01800;
+    --pink: #fe5e64;
+    --navy: #6a818b;
+    --lightred: #FF1D00;
+    --darkred: #7e0e00;
+}
+html, body {
+    font-weight: 400;
+    min-width: 375px;
+}
+.hamburger {
+    padding: 0;
+    transform: scale(0.75);
+    position: relative;
+    right: -10px;
+}
+:not([class*="fa"]),
+body,
+html,
+input,
+textarea {
+    font-family: "Work Sans", sans-serif;
+}
+.block_646ff48d2ce6b,
+.block_6474ce84ba921,
+.block_64753f2e02bb5,
+.footer-bottom .navigation .nav-item .nav-link:hover {
+    color: #fff;
+}
+.block_6474ce84ba921 .card[data-layout="icon"].--variation-2 .card-inner .card-info .title,
+.block_6474ce84ba921 .owl-custom-nav [class*="fa"],
+.breadcrumb .nav-link[href]:hover,
+.qual-o-valor-do-curso .owl-carousel .owl-item h2 {
+    color: var(--yellow);
+}
+.block_647528f80fc0f .container,
+.header .navigation .submenu .panels {
+    position: relative;
+}
+.block_647528f80fc0f .single-content + div {
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+.block_64754345dea17 {
+    position: relative;
+    z-index: 2;
+}
+.block_64754345dea17 + section .container {
+    position: relative;
+    z-index: 3;
+}
+.header-bottom .navigation > ul > .nav-item:nth-last-child(2) {
+    padding-right: 0 !important;
+}
+.content-link {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #fff;
+    background-color: var(--lightred);
+    font-size: 1.4rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.content-link:hover {
+    text-decoration: initial !important;
+}
+.block_647e1bc46e37e ~ .wp-block-image {
+    margin-bottom: 71px;
+}
+.block_647e29b49f171 {
+    margin-top: -71px;
+}
+.block_6474f796b4056 .container,
+.block_64755ab405d67 .container,
+.block_647df73fa8e17,
+.block_647dfe6d82192,
+.block_647e1bc46e37e .container,
+.block_647e1cf96b1b7 .container,
+.block_647e29b49f171 .container {
+    padding-top: 0;
+}
+.block_647dfb8f3d4b2 .section-header,
+[data-section="obrigado"] .section-header {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.banner .owl-theme .owl-nav [class*="owl-"] span,
+.module-whatsapp .module-whatsapp-btn .module-whatsapp-btn-icon::after {
+    display: none;
+}
+select,
+select,
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="number"],
+.wpcf7-form input[type="text"],
+.wpcf7-form select,
+.wpcf7-form textarea {
+    border: 1px var(--gray) solid;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.wpcf7 form.aborted .wpcf7-response-output,
+.wpcf7 form.failed .wpcf7-response-output {
+    padding: 0;
+    border: 0;
+    text-align: right;
+}
+.wpcf7-form textarea {
+    height: 205px;
+    overflow: hidden;
+    resize: none;
+}
+.wpcf7-form input[type="checkbox"],
+.wpcf7-form input[type="radio"] {
+    border: 1px var(--gray) solid;
+    height: 10px;
+    width: 10px;
+    border-radius: 999px;
+    display: inline-flex;
+    margin: 0 0.5rem 0 0;
+    cursor: pointer;
+}
+.wpcf7-form input[type="checkbox"] {
+    border-radius: 0;
+}
+.wpcf7-form input[type="checkbox"]:checked,
+.wpcf7-form input[type="radio"]:checked {
+    cursor: pointer;
+    border-color: transparent;
+    background-color: var(--red);
+}
+.wpcf7-form label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.wpcf7-form .wpcf7-list-item {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.wpcf7-form .wpcf7-list-item:not(.last) {
+    margin-bottom: 1rem;
+}
+.wpcf7-acceptance .wpcf7-list-item > label,
+.wpcf7-form .wpcf7-list-item > label {
+    display: flex;
+    align-items: center;
+    flex-flow: row-reverse;
+    cursor: pointer;
+    justify-content: flex-end;
+    font-weight: initial;
+    text-transform: initial;
+}
+.wpcf7-acceptance .wpcf7-list-item > label {
+    flex-flow: row;
+    justify-content: flex-start;
+}
+.wpcf7-form input[type="submit"] {
+    border: 0;
+    min-width: auto;
+    height: auto;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.wpcf7-form [class*="col"] > p:only-of-type {
+    border-bottom: 2px var(--lightgray) solid;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+.header-bottom > .container > .navigation .panels > .nav-item .nav-link,
+.section-header .text,
+.sidebar .navigation *,
+.sidebar .social-networks * {
+    font-size: 1.1rem;
+}
+.banner-cta .cta:hover *,
+.sidebar .navigation a {
+    color: #000;
+}
+.map [class*="fa-"],
+.pagination > * > .next,
+.pagination > * > .prev,
+.sidebar .navigation [class*="fa-"] {
+    color: var(--red);
+}
+.sidebar .social-networks,
+.sidebar .social-networks a {
+    color: var(--pink);
+}
+.sidebar form .btn {
+    border: 0;
+}
+.sidebar .recent-posts .thumbnail {
+    height: 70px;
+    flex: 0 0 auto;
+    background-position: center;
+    width: 70px;
+    background-size: cover;
+}
+.filters .custom-checkbox + label,
+.navigation.--mobile .title,
+.sidebar .recent-posts .item,
+form .btn.btn-cta {
+    cursor: pointer;
+}
+.sidebar .recent-posts a:not([class*="float"]):not([class*="-cta"]) {
+    font-size: 0.9rem;
+}
+.sidebar .recent-posts h3 {
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+select,
+[data-template="contato"] .wpcf7-form input[type="email"],
+[data-template="contato"] .wpcf7-form input[type="number"],
+[data-template="contato"] .wpcf7-form input[type="text"],
+[data-template="contato"] .wpcf7-form select,
+[data-template="contato"] .wpcf7-form textarea {
+    padding: 20px;
+    border-color: var(--pink);
+}
+select {
+    width: auto;
+}
+.map {
+    background-color: var(--lightblue);
+}
+.map .container {
+    padding-top: 60px;
+}
+.card:not([data-layout]) .thumbnail,
+.card[data-layout="info"] .thumbnail {
+    height: 100%;
+}
+.card[data-layout="info"]:not(.--variation-2) .card-inner .card-info .title {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.single .page-banner {
+    height: auto;
+    min-height: 314px;
+}
+.section-header .text p, .section-header .text p *, .single-content ol:not(.social-networks) li:not(:last-of-type), .single-content p, .single-content ul:not(.social-networks) li:not(:last-of-type), .taxonomy-header p,
+.single .single-content p {
+    line-height: 2;
+}
+#onde-vou-trabalhar .card[data-layout="icon"]:not(.--variation-2):not(.--variation-3) {
+    background-color: initial;
+    box-shadow: initial;
+}
+.porque-escolher-a-unipaulistana .container {
+    padding-top: 50px;
+    padding-bottom: 250px !important;
+}
+.qual-o-valor-do-curso {
+    background-color: var(--darkred);
+}
+.banner-cta .text,
+.onde-vou-trabalhar .no-que-acreditamos {
+    background-color: var(--mediumred);
+}
+.qual-o-valor-do-curso .section-header {
+    position: relative;
+    margin-top: -250px;
+}
+.qual-o-valor-do-curso .owl-carousel {
+    position: relative;
+    z-index: 1;
+}
+.qual-o-valor-do-curso .owl-carousel .owl-item img {
+    width: auto;
+}
+.qual-o-valor-do-curso .single-content h2 {
+    font-size: 2.2rem;
+}
+.qual-o-valor-do-curso .owl-custom-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 3rem;
+    z-index: 2;
+}
+.qual-o-valor-do-curso .price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--yellow);
+    text-decoration: line-through;
+}
+.qual-o-valor-do-curso .valores .valor-inner {
+    border: 1px var(--red) solid;
+    text-align: center;
+    height: 100%;
+    border-radius: 5px;
+}
+.qual-o-valor-do-curso .valores .valor-inner p {
+    line-height: 1.4;
+    font-size: 1rem;
+}
+.qual-o-valor-do-curso .valores .valor-inner .price {
+    font-size: 1.6rem;
+    text-decoration: initial;
+}
+.qual-o-valor-do-curso .valores .valor-inner .subtitle {
+    font-weight: 700;
+    color: red;
+}
+.qual-o-valor-do-curso .valores .valor-inner p:last-child:only-of-type {
+    color: #fff;
+    font-weight: 400;
+    font-size: inherit;
+}
+.author .glightbox {
+    padding: 0 0 60%;
+}
+.archive.category .card .card-inner,
+.page-template-blog .card .card-inner,
+.single-noticias .card .card-inner {
+    border-bottom: 2px var(--lightblue) solid;
+    margin-bottom: 1rem;
+}
+.card[data-layout="info"].--variation-2 .card-inner .thumbnail {
+    height: 270px;
+    border: 0;
+    border-radius: 0;
+}
+.archive.category .card[data-layout="info"].--variation-2 .card-inner .title,
+.page-template-blog .card[data-layout="info"].--variation-2 .card-inner .title,
+.single-noticias .card[data-layout="info"].--variation-2 .card-inner .title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: initial;
+}
+.archive.category .card[data-layout="info"].--variation-2:hover .card-inner .text,
+.archive.category .card[data-layout="info"].--variation-2:hover .card-inner .title,
+.grid > div:first-of-type + div .card[data-layout="info"].--variation-2:hover .card-inner .card-info .title,
+.grid > div:first-of-type > .card[data-layout="info"].--variation-2:only-of-type:hover .card-inner .card-info .title,
+.page-template-blog .card[data-layout="info"].--variation-2:hover .card-inner .text,
+.page-template-blog .card[data-layout="info"].--variation-2:hover .card-inner .title,
+.sidebar .recent-posts h3:hover,
+.sidebar a:not([class*="float"]):not([class*="-cta"]):hover,
+.single-noticias .card[data-layout="info"].--variation-2:hover .card-inner .text,
+.single-noticias .card[data-layout="info"].--variation-2:hover .card-inner .title {
+    color: var(--mediumred);
+}
+.sidebar form {
+    padding: 30px;
+}
+.page-template-blog .filter .filters .title {
+    background-color: transparent;
+}
+.archive.category .sidebar form .searchbar,
+.page-template-blog .sidebar form .searchbar,
+.single-noticias .sidebar form .searchbar {
+    background-color: #fff;
+}
+.archive.category .sidebar .filters .title,
+.page-template-blog .sidebar .filters .title,
+.single-noticias .sidebar .filters .title {
+    padding-left: 0;
+    text-transform: uppercase;
+}
+.sidebar a:not([class*="float"]):not([class*="-cta"]) [class*="fa"] {
+    position: relative;
+    top: 1px;
+    color: var(--red);
+}
+.pagination > * > * {
+    border-radius: 10px;
+    margin: 0 0.5rem;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--blue);
+}
+.pagination > * > .current {
+    color: #fff;
+    background-color: var(--red);
+}
+.archive.category .confira-os-cursos-que-estao-em-alta-na-unipaulistana,
+.page-template-blog .confira-os-cursos-que-estao-em-alta-na-unipaulistana,
+.single-noticias .confira-os-cursos-que-estao-em-alta-na-unipaulistana {
+    order: 1;
+}
+.archive.category #search,
+.page-template-blog #search,
+.single-noticias #search {
+    order: 3;
+}
+.archive.category .sidebar,
+.page-template-blog .sidebar,
+.single-noticias .sidebar {
+    order: 2;
+}
+.archive .sidebar,
+.page-template-blog .sidebar,
+.single .sidebar,
+.taxonomy-header {
+    width: 100%;
+    flex: 0 0 auto;
+}
+.post-header .title {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.post-header .post-header-bottom * {
+    font-size: 1rem;
+    color: var(--pink);
+}
+header .nav-link:hover {
+    color: var(--pink) !important;
+}
+#calendar .gc-calendar table.calendar td:hover,
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: 0 0;
+}
+.banner .owl-theme .owl-nav [class*="owl-"]::after {
+    content: url(../img/arrow.png);
+    height: 31px;
+    display: block;
+    position: relative;
+}
+.breadcrumb ul > li:not(:last-of-type)::after {
+    height: 10px;
+    width: 10px;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background: url(../img/arrow.png) center center/contain no-repeat;
+}
+.banner .owl-theme .owl-nav [class*="prev"]::after {
+    transform: rotate(180deg);
+}
+.section-header .title {
+    font-size: 1.8rem;
+}
+.btn-cta {
+    text-transform: uppercase;
+}
+.is-opened .submenu {
+    display: block !important;
+}
+.header .navigation.--mobile .nav-item .nav-link {
+    color: #000;
+    font-size: 1rem;
+}
+.card[data-layout="info"]:not(.--variation-2):hover .card-info::after {
+    max-height: 45px;
+}
+.card:not([data-layout]) .thumbnail::after {
+    transition: max-height 250ms;
+}
+.card[smaller] .thumbnail::after {
+	display: none !important;
+}
+.card[smaller] .thumbnail .title {
+	padding-bottom: 20px;
+}
+.grid > div:first-of-type + div .card[data-layout="info"].--variation-2 .card-inner .card-info .text,
+.grid > div:first-of-type > .card[data-layout="info"].--variation-2:only-of-type .card-inner .card-info .text {
+    letter-spacing: 0.1rem;
+}
+.grid > div:first-of-type > .card[data-layout="info"].--variation-2:only-of-type .card-inner .card-info .title {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.grid > div:first-of-type + div .card[data-layout="info"].--variation-2 .card-inner .card-info .title {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.footer-bottom .navigation .nav-item .nav-link {
+    color: var(--lightgray);
+}
+.header .header-bottom > .container {
+    transition: 0.5s;
+}
+.header.sticky .header-bottom {
+    box-shadow: initial;
+    border-bottom: 1px var(--mediumred) solid;
+}
+.section-header.taxonomy-header h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.modal p,
+.section-header.taxonomy-header p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 300;
+}
+#confira-os-cursos-que-estao-em-alta-na-unipaulistana .card[data-layout="info"]:not(.--variation-2):hover .card-info::after,
+.archive .card[data-layout="info"]:not([class*="variation"]):hover .card-inner .card-info::after {
+    max-height: 30px;
+}
+.archive .card[data-layout="info"] .card-inner .card-info .tags {
+    margin-top: 0.3rem !important;
+}
+.archive #confira-os-cursos-que-estao-em-alta-na-unipaulistana .card[data-layout="info"] .card-inner .card-info .tags .bubble {
+    flex: 1;
+    font-size: 0.5rem;
+}
+#confira-os-cursos-que-estao-em-alta-na-unipaulistana .card[data-layout="info"] .card-inner .card-info .title,
+.float-btn,
+.float-card .btn {
+    font-size: 1.2rem;
+}
+.sidebar a:not([class*="float"]):not([class*="-cta"]) {
+    color: inherit;
+    font-size: 1.2rem;
+    flex: 1;
+}
+.custom-checkbox + label {
+    white-space: initial;
+}
+.filters .custom-checkbox + label:hover {
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+.searchbar input {
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+.page-banner-content .title {
+    font-size: 2.4rem;
+    line-height: 1.4;
+}
+.page-banner-content {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.card[data-layout="icon"].--variation-3:hover .card-inner,
+.float-btn,
+body.float-card-enabled.float-card-scrolling .float-card {
+    box-shadow: 5px 5px 20px -10px #000;
+}
+.gc-calendar,
+[data-feature="two-columns-image-list"],
+[data-feature="two-columns-image-list"] .content {
+    overflow: hidden;
+}
+[data-feature="two-columns-image-list"] .content .icon-list {
+    background-color: var(--blue);
+    padding: 90px 0 55px;
+    text-align: center;
+    color: var(--yellow);
+}
+[data-feature="two-columns-image-list"] .content .icon-list .item {
+    margin-bottom: 35px;
+}
+[data-feature="two-columns-image-list"] .content .icon-list p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    font-weight: 400;
+}
+[data-feature="two-columns-image-list"] .content .icon-list img {
+    height: 67px;
+}
+[data-feature="two-columns-image-list"] .content .img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+[data-feature="two-columns-image-list"] .cta {
+    background-color: var(--mediumred);
+    padding: 35px;
+}
+[data-feature="two-columns-image-list"] .cta:hover {
+    background-color: var(--yellow);
+}
+[data-feature="two-columns-image-list"] .cta:hover span {
+    color: #000 !important;
+}
+[data-feature="two-columns-image-list"] .cta:hover span[style*="#ffff00"] {
+    color: red !important;
+}
+[data-feature="two-columns-image-list"] .cta p,
+[data-feature="two-columns-image-list"] .cta p * {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-cta * {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.banner-cta .cta {
+    background-color: var(--blue);
+    cursor: pointer;
+    text-align: center;
+}
+.banner-cta .cta:hover,
+.content-link:hover,
+[data-feature="text-banner"] .btn:hover {
+    background-color: var(--yellow);
+    color: #000;
+}
+.footer-top .qrcode {
+    line-height: 1.4;
+}
+.header .navigation .title {
+    font-size: 1.4rem;
+}
+.card[data-layout="icon"].--variation-3 .card-inner {
+    border-radius: 5px;
+}
+.card[data-layout="icon"].--variation-3:hover .card-inner .card-info .title {
+    color: var(--yellow);
+}
+.section-header .text p,
+.single-content p,
+.single-content p :not([class*="fa"]) {
+    font-weight: 400;
+}
+.single-content p,
+.single-content p * {
+    line-height: 1.8;
+    font-size: 1.12rem;
+    font-weight: 400;
+}
+.single-content p b,
+.single-content p strong {
+    font-weight: 700 !important;
+}
+.category .single-content .section-header h2 span,
+.page-template-blog .single-content .section-header h2 span {
+    font-weight: 300;
+}
+#calendar .gc-calendar .gc-calendar-header .gc-calendar-mont *,
+#calendar .gc-calendar .gc-calendar-header .gc-calendar-month-year *,
+.category .single-content .section-header h2 strong,
+.modal .title,
+.page-template-blog .single-content .section-header h2 strong {
+    font-weight: 700;
+}
+.header .navigation .submenu .panels > .nav-item .subpanel {
+    min-height: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+.header .navigation .submenu .panels > .nav-item {
+    position: initial;
+}
+.header .navigation .submenu .panels > .nav-item .subpanel:hover,
+.header .navigation .submenu .panels > .nav-item:hover .subpanel,
+.header .navigation .submenu .panels > .nav-item:hover .subpanel:hover {
+    display: block;
+}
+.searchbar {
+    padding: 8px 12px 8px 22px;
+    border-width: 1px;
+    background-color: #fff;
+}
+.newsletter {
+    background-color: var(--lightblue);
+    padding: 0 30px 30px;
+    order: 3;
+}
+.sidebar .newsletter form {
+    padding: 0 !important;
+}
+.newsletter input[type="email"] {
+    border: 2px solid var(--mediumred);
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+}
+.newsletter .content-link {
+    min-width: initial;
+}
+.newsletter .btn.btn-cta {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    height: auto;
+}
+.filters-group .title {
+    background-color: #f3f4f8;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.2rem;
+}
+.filters-group .title + .text {
+    line-height: 1.4;
+    color: var(--navy);
+}
+.footer .logo img {
+    max-width: 150px;
+}
+.header .logo img {
+    width: 200px;
+}
+.noticia-banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.simple-carousel {
+    overflow-y: hidden;
+    max-width: 100%;
+}
+.testimonials {
+    margin: 0 -0.5rem !important;
+}
+.simple-carousel::-webkit-scrollbar {
+    display: none;
+}
+.card[data-layout="info"].--variation-1 {
+    height: 242px;
+}
+.card[data-layout="info"].--variation-1:not([class*="col-"]) {
+    width: 412px;
+}
+#confira-os-cursos-que-estao-em-alta-na-unipaulistana .card[data-layout="info"].--variation-1:not([class*="col-"]) {
+    width: 100%;
+}
+.card[data-layout="simple"] {
+    width: 261px;
+}
+.card:not([data-layout]) {
+    width: 280px;
+    height: 375px;
+    flex: 0 0 auto;
+}
+.archive .simple-carousel .card[data-layout="info"].--variation-1 {
+    height: 165px;
+}
+.archive .simple-carousel .card[data-layout="info"].--variation-1:last-of-type,
+.card:not([data-layout]):last-of-type,
+.card[data-layout="simple"]:last-of-type {
+    margin-right: 0 !important;
+}
+.archive .simple-carousel .card[data-layout="info"].--variation-1:first-of-type,
+.card:not([data-layout]):first-of-type,
+.card[data-layout="simple"]:first-of-type {
+    margin-left: 0 !important;
+}
+.card:not([data-layout]),
+.card[data-layout="info"],
+.card[data-layout="simple"] {
+    flex: 0 0 auto;
+}
+.card[data-layout="simple"] .card-inner {
+    display: flex;
+    flex-flow: column;
+}
+.card[data-layout="simple"] .card-inner .show-more-btn {
+    margin-top: auto;
+}
+.card .thumbnail .title {
+    font-weight: 700;
+    padding-bottom: 0;
+    font-size: 1.4rem;
+}
+.single-content {
+    order: initial;
+}
+.confira-os-cursos-que-estao-em-alta-na-unipaulistana .card .title {
+    white-space: initial;
+    text-overflow: initial;
+    overflow: initial;
+}
+.archive .simple-carousel .card[data-layout="info"].--variation-1 .card-inner .card-info .title {
+    font-size: 1.2rem;
+}
+.card.--variation-3 {
+    height: 235px;
+    flex: 0 0 auto;
+}
+.banner-footer .content-link {
+    min-width: initial;
+    padding: 10px 0;
+    height: auto;
+}
+.banner-footer ul li {
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.banner-footer ul li img {
+    max-width: 120px;
+    height: auto;
+}
+.banner-footer .container > * > * {
+    margin: 0 7px;
+}
+.banner-footer ul li .content-link {
+    width: 220px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background-color: var(--mediumred) !important;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #f5f5f5;
+}
+/* .faq-list ul,
+.single-content ol:not(.social-networks),
+.single-content ul:not(.social-networks) {
+    list-style: none;
+} */
+.faq-list ul {
+    padding-left: 18px;
+    position: relative;
+}
+.faq-list ul li,
+.section-header .text p,
+.section-header .text p *,
+.single-content ol:not(.social-networks) li,
+.single-content ul:not(.social-networks) li {
+    font-size: 1.12rem;
+}
+.faq-list ul li::before,
+.single-content ol:not(.social-networks) li::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-color: red;
+    border-radius: 999px;
+    height: 5px;
+    width: 5px;
+    position: relative;
+    top: -1px;
+    margin-right: .5rem;
+}
+/* .faq-list ul li::marker,
+.single-content ol:not(.social-networks) li::marker,
+.single-content ul:not(.social-networks) li::marker {
+    display: none;
+} */
+.modal .title,
+.single-content h1,
+.single-content h2,
+.taxonomy-header h2,
+[data-feature="text-banner"] h2 {
+    margin-bottom: 2rem;
+}
+.modal .close,
+.modal .close *,
+.modal .title,
+.single-content h2 *,
+.taxonomy-header h2,
+.taxonomy-header h2 * {
+    font-size: 2rem;
+}
+.section-header .text p,
+.section-header .text p *,
+.single-content ol:not(.social-networks) li:not(:last-of-type),
+.single-content p,
+.single-content ul:not(.social-networks) li:not(:last-of-type),
+.taxonomy-header p {
+    margin-bottom: 1.5rem;
+}
+.section-header .text p,
+.section-header .text p *,
+.single-content p,
+.taxonomy-header p {
+    line-height: 2rem;
+}
+.faq-list a,
+.faq-list ul li a,
+.single-content p a:not([class*="content-link"]) {
+    color: red;
+    font-size: inherit;
+}
+.faq-list a:hover,
+.single-content p a:hover,
+p.privacidade a:hover {
+    text-decoration: underline;
+}
+.avatar {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 999px;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.float-card-content > * p {
+    white-space: initial;
+    font-size: 0.8rem;
+}
+.onde-vou-trabalhar .no-que-acreditamos .section-header,
+.onde-vou-trabalhar .no-que-acreditamos h2,
+.price-wrapper h2,
+.price-wrapper p {
+    margin-bottom: 0;
+}
+.faq-list .faq-item .text {
+    max-height: 150px;
+    overflow: hidden;
+}
+.faq-list .faq-item .text *,
+.wpcf7-form label * {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+.porque-escolher-a-unipaulistana ol,
+.porque-escolher-a-unipaulistana ul {
+    list-style: none !important;
+}
+#calendar .gc-calendar .gc-event {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 999px;
+    padding: 9px 12px;
+    color: #fff;
+}
+#calendar .gc-calendar .gc-calendar-header {
+    display: flex;
+    align-items: center;
+}
+#calendar .gc-calendar .gc-calendar-header .gc-calendar-month-year {
+    order: 3;
+    margin: 0 auto;
+    font-weight: 700;
+}
+#calendar .bg-info {
+    background-color: var(--red) !important;
+}
+#calendar .gc-calendar table.calendar a:hover {
+    background-color: transparent;
+    width: 100%;
+    border-radius: initial;
+    padding-left: initial;
+    transition: 0.2s;
+}
+#calendar .gc-calendar table.calendar th::before,
+#calendar .gc-calendar table.calendar tr:not(:last-child) td::before {
+    width: 100%;
+    height: 1px;
+    background-color: #ededed;
+}
+#calendar .gc-calendar table.calendar {
+    border: 1px solid #ededed;
+}
+#calendar .gc-calendar table.calendar th.dayname {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+#calendar .gc-calendar table.calendar td.day {
+    padding: 10px;
+    text-align: RIGHT;
+    border-bottom: 0;
+}
+#calendar .gc-calendar table.calendar td.day:not(:first-of-type) {
+    border-left: 1px solid #ededed;
+}
+#calendar .calendar tbody tr > *,
+.calendar thead tr > * {
+    flex: 1;
+}
+#calendar .calendar tbody tr,
+.calendar thead tr {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+#calendar td.day.prev-month * {
+    font-weight: 300 !important;
+}
+#calendar .gc-calendar table.calendar td .day-number {
+    color: #38385c !important;
+}
+#calendar .gc-calendar table.calendar td .today .day-number {
+    color: var(--mediumred) !important;
+}
+#calendar .gc-calendar .gc-calendar-header button.next,
+#calendar .gc-calendar .gc-calendar-header button.prev {
+    background: var(--mediumred);
+    border-radius: 10px 0 0 10px;
+    margin: 0;
+    color: #fff;
+}
+#calendar .gc-calendar .gc-calendar-header button.next {
+    background: var(--darkred);
+    border-radius: 0 10px 10px 0;
+}
+#calendar .gc-calendar table.calendar td {
+    padding: 12px;
+}
+.gc-calendar .gc-calendar-header .gc-calendar-month-year * {
+    font-size: 2rem;
+    font-weight: 300 !important;
+}
+.breadcrumb .nav-item:last-of-type {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+.modal-inner {
+    background-color: #fff;
+    max-width: 640px;
+    position: relative;
+    border-radius: 5px;
+}
+.modal .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    padding: 15px;
+}
+.sidebar [class*="fa-calendar"] {
+    position: relative;
+    top: 6px;
+}
+p.privacidade a {
+    color: inherit;
+}
+.block_6470ab66683cd .section-header .title {
+    text-align: center;
+}
+.float-btn {
+    bottom: 85px;
+}
+/* #banner .owl-stage .owl-item,
+#banner .owl-stage {
+    width: calc(100% + 5px) !important;
+} */
+.banner .owl-carousel .owl-nav.disabled {
+    display: none !important;
+}
+.taxonomy-header + * .section-header .title {
+    line-height: 1;
+}
+[data-feature="testimonials"] .section-header .col-lg-6 {
+    width: 100% !important;
+}
+.card[smaller] {
+    height: 275px !important;
+}
+.card[disabled] {
+    filter: grayscale(1);
+    pointer-events: none;
+}
+.card[data-layout="info"][disabled]:not(.--variation-2) .card-info::after {
+	max-height: initial;
+	content: 'Em breve';
+}
+.list-group-item::before {
+    display: none !important;
+}
+.list-group-item > ul,
+.list-group-item > ol {
+    padding-left: 3rem;
+}
+.content-link {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 5px;    
+    color: white;
+    padding-top: 20px;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 20px;
+    background-color: var(--lightred);
+    font-weight: bold !important;
+    min-width: 282px;
+}
+@media screen and (max-width: 568px) {
+    .home .owl-carousel .card[data-layout="info"] .card-inner .card-info .title,
+    .modal p {
+        font-size: 0.9rem;
+    }
+    .home .owl-carousel .card[data-layout="info"] .tags > * {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: initial;
+    }
+    .home .owl-carousel .card[data-layout="info"] .thumbnail {
+        height: 130px;
+    }
+    .modal-inner p {
+        max-height: 300px;
+        overflow: auto;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .card[data-layout="info"].--variation-1 {
+        height: 196px;
+    }
+    .footer-top .qrcode {
+        text-align: center;
+    }
+    .footer-top .qrcode p {
+        max-width: 164px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .footer-top .navigation .nav-item .nav-link[data-label="Telefone"]::after {
+        display: none !important;
+    }     
+    .grid .card[data-layout="info"].--variation-2 {
+        width: 319px;
+    }    
+    .grid .card[data-layout="info"].--variation-2 .thumbnail {
+        height: 319px;
+    }
+    .no-que-acreditamos {
+        padding: 50px 25px;
+        border-radius: 0;
+    }
+    .onde-vou-trabalhar .no-que-acreditamos .owl-carousel .owl-nav {
+        display: flex;
+        width: 100%;
+    }
+    #block_6474ce84ba921 
+    .simple-carousel .card[data-layout="info"].--variation-2 {
+        width: 300px;
+    }    
+    .simple-carousel .card[data-layout="info"].--variation-2 .thumbnail {
+        width: 100%;
+        height: initial;
+    }
+    .sidebar.is-opened .filter > .title, .sidebar.is-opened .filter .filters .title,
+    .sidebar.is-opened a:not([class*="float"]):not([class*="-cta"]) {
+        font-size: 1.3rem;
+    }
+
+    .sidebar.is-opened .newsletter {
+        margin-top: 3rem;
+    }
+    .sidebar.is-opened .newsletter,
+    .sidebar form {
+        padding: 0;
+    }
+    .filters-group .title,
+    .newsletter {
+        background-color: transparent;
+    }
+    .header .navigation.--mobile .nav-item .nav-link {
+        font-size: 1.2rem;
+    }
+    .sidebar:not(.--contact),
+    .single .section.content .single-content + .sidebar {
+        order: 1;
+    }
+    #search,
+    .single .section.content .single-content {
+        order: 2;
+    }
+    .single-content + .sidebar .float-card {
+        top: 0;
+        margin-bottom: 5rem;
+    }
+    .banner-footer ul li:last-child {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-bottom: -45px;
+    }
+    .card.--variation-3 {
+        width: 250px;
+    }
+    .grid.--variation-2 .simple-carousel .thumbnail {
+        width: 319px;
+        height: 231px;
+        object-fit: cover;
+    }
+    .home .owl-carousel .card[data-layout="info"] .card-inner .card-info .title {
+        line-height: initial;
+    }
+    [data-feature="two-columns-image-list"] .content .icon-list {
+        padding: 50px 0 15px;
+    }
+    [data-feature="two-columns-image-list"] .section-header {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+    [data-feature="two-columns-image-list"] .container {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        max-width: 100%;
+    }
+    .page-banner {
+        background-position: right center !important;
+    }
+    /* .onde-vou-trabalhar .no-que-acreditamos .owl-carousel .owl-nav {
+        display: flex;
+        width: calc(100% + 30px);
+    } */
+    /* .onde-vou-trabalhar .no-que-acreditamos .owl-carousel .owl-stage-outer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    } */
+    .single .page-banner {
+        min-height: 190px;
+    }
+    .page-header .title {
+        font-size: 1.6rem;
+    }
+    .float-card-content > * p {
+        font-size: 1rem;
+    }
+    .navigation.--mobile {
+        border-top: 2px var(--lightblue) solid;
+    }
+    .page-template-blog .section.single-content .container,
+    [data-feature="text-banner"] {
+        padding-bottom: 0;
+    }
+    .map .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    [data-feature="two-columns-image-list"] .content .icon-list .item {
+        margin-bottom: 15px;
+    }
+    [data-feature="two-columns-image-list"] .content .icon-list {
+        padding: 50px 0 35px;
+    }
+    .archive .card[data-layout="info"] .card-inner .card-info .title,
+    [data-feature="text-banner"] .btn {
+        font-size: 1.2rem;
+    }
+    .banner-cta .text,
+    .qual-o-valor-do-curso .single-content:not(.section-header) {
+        text-align: center;
+    }
+    [data-feature="two-columns-image-list"] .cta p,
+    [data-feature="two-columns-image-list"] .cta p * {
+        font-size: 2.2rem;
+    }
+    [data-feature="text-banner"] .advice {
+        margin-top: -80px;
+    }
+    .valores > * {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        flex: 0 0 auto !important;
+        padding-right: 0 !important;
+    }
+    .page-banner-content .title {
+        display: none;
+    }
+    /* .taxonomy-header + * .section-header .title {
+        font-size: 1.4rem;
+    } */
+}
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .card[data-layout="info"].--variation-1 {
+        height: 242px;
+    }
+    .simple-carousel .card[data-layout="info"].--variation-1 {
+        width: 80%;
+        height: 196px;
+    }
+}
+/* @media screen and (max-width: 568px) {
+    .list-group-item > ul,
+    .list-group-item > ol {
+        padding-left: 0;
+    }
+} */
+@media screen and (min-width: 768px) {
+    .footer-bottom .navigation .nav-col {
+        flex: initial;
+    }
+    .archive .card[data-layout="info"].--variation-1 .title {
+        max-width: 85%;
+    }
+    .archive #search .card[data-layout="info"].--variation-1:nth-child(2n + 2) {
+        padding-right: 0 !important;
+    }
+    .archive #search .card[data-layout="info"].--variation-1:nth-child(odd) {
+        padding-left: 0 !important;
+    }
+    .porque-escolher-a-unipaulistana .container {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    .page-header .page-header-info .title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media screen and (min-width: 992px) {  
+    section#block_6ec187b8c047672b7522ecf9ed5b96ef {
+        margin-bottom: -340px;
+    }
+    section#block_6ec187b8c047672b7522ecf9ed5b96ef + section#block_f76f872bdf768b316116a3185b32ed84 .container {
+        padding-top: 370px;
+    }
+    #confira-os-cursos-que-estao-em-alta-na-unipaulistana .card[data-layout="info"] {
+        height: 160px;
+        width: auto;
+    }
+    #confira-os-cursos-que-estao-em-alta-na-unipaulistana [data-query="curso"] .card[data-layout="info"] {
+        height: 240px;
+        width: auto;
+    }  
+    .sidebar form {
+        background-color: var(--lightblue);
+        padding: 30px;
+    }
+    .filter .filters .title,
+    .filter > .title {
+        text-transform: uppercase;
+        padding: 12px 0;
+    }
+    form[action*="ex-alunos"] {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .card[data-layout="icon"].--variation-2 {
+        width: 100%;
+    }
+    .card[data-layout="simple"] {
+        height: 200px;
+    }
+    .page-header .page-header-info {
+        max-width: calc(100% - 340px);
+    }
+    .card.--variation-3 {
+        height: 195px;
+    }
+    .archive .card[data-layout="info"].--variation-1 {
+        flex: 0 0 auto;
+    }
+    .archive .simple-carousel .card[data-layout="info"].--variation-1,
+    .card:not([data-layout]),
+    .card[data-layout="info"].--variation-1,
+    .card[data-layout="simple"],
+    .footer-bottom .navigation .nav-col,
+    .page-template-blog #search {
+        flex: 1;
+    }
+    .simple-carousel {
+        flex-wrap: wrap;
+    }
+    .simple-carousel .grid.--variation-2 > div:first-of-type .card {
+        width: 479px;
+        height: 424px;
+    }
+    .grid.--variation-2 > div:first-of-type + div .card .thumbnail {
+        height: 231px;
+    }
+    .block_6487e56a999f3 + .section .container {
+        padding-top: 285px;
+    }
+    .block_6474f796b4056,
+    .block_6487e56a999f3 {
+        margin-bottom: -220px;
+    }
+    .block_647528f80fc0f .container,
+    .block_6487e56a999f3 .container {
+        padding-bottom: 0;
+    }
+    .card[data-layout="info"]:not(.--variation-2) .card-info {
+        padding-bottom: 0 !important;
+    }
+    .card[data-layout="info"]:not(.--variation-2) .card-info::after {
+        content: "Ver Curso";
+        transition: max-height 250ms;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        height: 45px;
+        margin: 20px -20px 0;
+        background-color: #d01800;
+        font-weight: 700;
+        text-transform: uppercase;
+        overflow: hidden;
+        max-height: 0;
+        z-index: 3;
+    }
+    .footer-top .qrcode {
+        max-width: 445px;
+    }
+    .sidebar:not(.--map),
+    .taxonomy-header {
+        flex: 0 0 auto !important;
+        width: 300px !important;
+    }
+    .archive.category .confira-os-cursos-que-estao-em-alta-na-unipaulistana,
+    .page-template-blog .confira-os-cursos-que-estao-em-alta-na-unipaulistana,
+    .single-noticias .confira-os-cursos-que-estao-em-alta-na-unipaulistana {
+        order: 1;
+    }
+    .archive.category #search,
+    .page-template-blog #search,
+    .single-noticias #search {
+        order: 2;
+    }
+    .archive.category .sidebar,
+    .page-template-blog .sidebar,
+    .single-noticias .sidebar {
+        order: 3;
+    }
+    .map .container > :last-child {
+        padding-bottom: 60px;
+    }
+    .block_64755ab405d67 .container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .block_646fd1cb455c2 + .block_646ff48d2ce6b,
+    .block_647df73fa8e17 + section {
+        margin-top: -420px;
+    }
+    .block_646fd1cb455c2 + .block_646ff48d2ce6b .container,
+    .block_647df73fa8e17 + section .container {
+        padding-top: 420px;
+    }
+    .block_646fd713455c5,
+    .block_64723f87cbf66 {
+        margin-top: -315px;
+    }
+    .block_646fd713455c5 .container,
+    .block_64723f87cbf66 .container {
+        padding-top: 315px;
+    }
+    /* .block_6474ce84ba921,
+    .block_647dfe6d82192 + section {
+        margin-top: -265px;
+    }
+    .block_647dfe6d82192 + section .container {
+        padding-top: 265px;
+    } */
+    .block_6474ce84ba921 .section-header {
+        max-width: 50%;
+    }
+    .block_6474ddae8845b.has-video .glightbox-wrapper {
+        position: relative;
+        margin-bottom: -270px;
+    }
+    .block_6474ddae8845b.has-video + section .container {
+        padding-top: calc(85px + 190px);
+    }
+    .block_6474f796b4056 + .section .container {
+        padding-top: 220px;
+    }
+    .block_6474cce1ba920 {
+        margin-bottom: -80px;
+    }
+    .block_647528f80fc0f {
+        max-height: 590px;
+    }
+    .block_647528f80fc0f .container::after {
+        content: "";
+        height: 590px;
+        background-color: var(--darkred);
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100vw;
+        left: calc(100% - 175px);
+    }
+    .block_647528f80fc0f .single-content + div {
+        top: -270px;
+        display: flex;
+    }
+    .block_64754345dea17 + section {
+        margin-top: -200px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .block_6474ce84ba921,
+    .block_647dfe6d82192 + section {
+        margin-top: -265px;
+    }
+    .block_647dfe6d82192 + section .container {
+        padding-top: 265px;
+    }    
+    .card[data-layout="simple"] {
+        height: 200px;
+    }
+    .card.--variation-3 {
+        height: 240px;
+    }
+    .qual-o-valor-do-curso .section-header {
+        position: relative;
+    }
+    .qual-o-valor-do-curso .section-header::before {
+        height: 100%;
+        width: 100%;
+        content: "";
+        background-color: var(--blue);
+        position: absolute;
+        top: 0;
+        left: -100%;
+    }
+    .block_647528f80fc0f {
+        max-height: 650px;
+    }
+    .block_647528f80fc0f .container::after {
+        height: 650px;
+    }
+}
+@media screen and (min-width: 1330px) {
+    .card[data-layout="simple"] {
+        min-height: 180px;
+    }
+    .block_6470ab66683cd {
+        max-height: 645px;
+        margin-bottom: 155px;
+    }
+    .block_647528f80fc0f .container::after {
+        height: 600px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .card.--variation-3 {
+        height: 285px;
+    }
+}
+[data-feature="testimonials"] {
+    color: white;
+}
